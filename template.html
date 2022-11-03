@@ -1,0 +1,7 @@
+<ul>
+  <li n-for="(item, index) in arr" :key="index" style="margin-bottom: 10px;" :class="{'green-bg': index}">
+    <button @click="test(item)">
+      {{item}}
+    </button>
+  </li>
+</ul>
